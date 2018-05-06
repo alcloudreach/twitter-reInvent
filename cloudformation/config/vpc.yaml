@@ -1,0 +1,4 @@
+template_path: templates/vpc.yaml
+parameters:
+    DatabaseUsername: 10.0.0.0/16
+    DatabasePassword: 5wkmjrm7xi3vm8danq

@@ -1,0 +1,59 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "twitter sentiment analysis",
+            "intents": [
+                {
+                    "name": "SentimentIntent",
+                    "slots": [
+                        {
+                            "name": "Tag",
+                            "type": "LIST_OF_TAGS"
+                        }
+                    ],
+                    "samples": [
+                        "analyse {Tag} hashtag"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "values": [
+                        {
+                            "name": {
+                                "value": "metoo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jinglebells"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "terrorism"
+                            }
+                        }
+                    ],
+                    "name": "LIST_OF_TAGS"
+                }
+            ]
+        }
+    }
+}
