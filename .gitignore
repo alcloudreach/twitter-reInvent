@@ -1,0 +1,19 @@
+ # Intellij
+.idea/
+*.iml
+*.iws
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+X2Dev-1.0-jar-with-dependencies.jar
+src/test
